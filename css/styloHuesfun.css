@@ -17,16 +17,16 @@
   background-image: url(../image/nuevoLogo\ Glauka.png);
   background-size: cover;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 5%;
 }
 #menu {
   display: flex;
-  width: 70%;
+  width: 50%;
   height: 40px;
   justify-content: space-around;
   margin-top: 50px;
-  margin-left: 15%;
-
+  margin-right: 0px;
+  margin-left: 35%;
 }
 #menu li {
   text-decoration: none;
@@ -44,13 +44,19 @@
 }
 #principal {
   display: flex;
+  background-color: #df013a;
   width: 100vw;
-  height: 100vh;
+  height: 82vh;
 }
-#zonaFlyer {
+#fotoPrincipal {
   width: 60vw;
-  height: 83vh;
-  background-image: url(../image/Huesca2.jpg);
+  height: 82vh;
+  background-color: #000;
+}
+#flyerPrincipal {
+  width: 35vw;
+  height: 82vh;
+  background-image: url(../image/BenidormA4.jpg);
   background-size: cover;
 }
 #textoPrincipalUno {
@@ -74,37 +80,72 @@
   text-align: center;
 }
 #secundario {
+  display: flex;
   width: 100vw;
   height: 100vh;
   background-color: #ffffff;
+  margin: 0;
+}
+#bloqueUnoSec {
+  width: 33%;
+  height: 100vh;
+  margin: 0;
+}
+#bloqueDosSec {
+  width: 33%;
+  height: 100vh;
+  margin: 0;
 }
 .textoIntro {
-  width: 60px;
+  width:50%;
   color: #df013a;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-left: 40px;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.subTitulos {
+  width: 25vw;
+  height: 5vh;
+  margin-left: 50px;
+  font-size: 16px;
+  margin-top: 10px;
 }
 .textoFuerte {
   width: 600px;
   color: #df013a;
   font-family: "Bebas Neue", cursive;
-  font-size: 50px;
-  margin-left: 40px;
+  font-size: 80px;
+  margin-left: 50px;
+}
+#fotoBloqueUnoSec {
+  width: 25vw;
+  height: 50vh;
+  background-image: url(../image/Castillo.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#fotoBloqueDosSec {
+  width: 25vw;
+  height: 50vh;
+  background-image: url(../image/ordesa.jpg);
+  background-size: cover;
+  margin-top: 265px;
+  margin-left: 50px;
+}
+#fotoBloqueTresSec {
+  width: 25vw;
+  height: 50vh;
+  background-image: url(../image/PASARELA.jpg);
+  background-size: cover;
+  margin-top: 265px;
+  margin-left: 50px;
 }
 
-#fotoUnoSec {
-  width: 300px;
-  height: 300px;
-  background-image: url(../image/Castillo-de-Loarre-Archivo-Prames.jpg);
-  background-size: cover;
-  margin-top: 40px;
-  margin-left: 40px;
-}
 #terciario {
   width: 100vw;
   height: 100vh;
-  background-color: #df013a;
+  background-color: #df01afe3;
 }
 #cuaternario {
   width: 100vw;
