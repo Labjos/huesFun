@@ -8,8 +8,9 @@
   width: 100vw;
   height: 150px;
   display: flex;
-  background-color: #bbbaba;
+  background-color: #CCD1D1 ;
   margin: 0;
+  border-bottom: 2px  solid #fff;
 }
 #logoGlauka {
   width: 119px;
@@ -34,36 +35,32 @@
 }
 #menu li a {
   font-family: "Bebas Neue", cursive;
-  color: rgb(50, 50, 54);
+  color: #424949;
   font-size: 30px;
   text-decoration: none;
   list-style-type: none;
 }
 #menu li a:hover {
-  color: #fff;
+  color:  #E5E8E8;
 }
 #principal {
   display: flex;
-  background-color: rgb(50, 50, 54);
+  background-color: #424949;
   width: 100vw;
   height: 82vh;
 }
 #fotoPrincipal {
-  width: 600px;
-  height: 600px;
-  background-color: rgb(50, 50, 54);
+  width: 74vw;
+  height: 82vh;
 }
 #textoInsp {
-  width: 38vw;
+  width: 26vw;
   height: 82vh;
-  background-color: rgb(50, 50, 54);
+  background-color: #424949;
   background-size: cover;
-}
-#flyerPrincipal {
-  width: 30vw;
-  height: 82vh;
-  background-image: url(../image/BenidormA4.jpg);
-  background-size: cover;
+  font-family: "Krona One", sans-serif;
+  font-size: 20px;
+  color: #fff;
 }
 #textoPrincipalUno {
   width: 40%;
@@ -89,13 +86,15 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
+  background-image: url(../image/fondoUno.jpg);
+  background-size: cover;
   margin: 0;
+  border-top: 2px solid #5e5c5c;
 }
 #bloqueUnoSec {
-  width: 33%;
+  width: 25%;
   height: 100vh;
-  margin: 0;
+  margin-left: 100px;
 }
 #bloqueDosSec {
   width: 33%;
@@ -103,8 +102,8 @@
   margin: 0;
 }
 .textoIntro {
-  width:50%;
-  color: rgb(50, 50, 54);
+  width:80%;
+  color: #424949;
   font-size: 18px;
   margin-top: 50px;
   margin-left: 50px;
@@ -117,49 +116,73 @@
   margin-top: 10px;
 }
 .textoFuerte {
-  width: 600px;
+  width: 1000px;
   color: rgb(50, 50, 54);
   font-family: "Bebas Neue", cursive;
   font-size: 80px;
   margin-left: 50px;
 }
 #fotoBloqueUnoSec {
-  width: 25vw;
-  height: 50vh;
+  width: 20vw;
+  height: 40vh;
   background-image: url(../image/Castillo.jpg);
   background-size: cover;
   margin-top: 50px;
   margin-left: 50px;
 }
 #fotoBloqueDosSec {
-  width: 25vw;
-  height: 50vh;
+  width: 20vw;
+  height: 40vh;
   background-image: url(../image/ordesa.jpg);
   background-size: cover;
   margin-top: 265px;
   margin-left: 50px;
 }
 #fotoBloqueTresSec {
-  width: 25vw;
-  height: 50vh;
+  width: 20vw;
+  height: 40vh;
   background-image: url(../image/PASARELA.jpg);
   background-size: cover;
   margin-top: 265px;
   margin-left: 50px;
 }
-
 #terciario {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(50, 50, 54);
+  background-color: #424949;
 }
 #cuaternario {
   width: 100vw;
   height: 600px;
   background-color: #ffffff;
+  background-size: cover;
+}
+#fotoBloqueUnoQua {
+  width: 25vw;
+  height: 50vh;
+  background-image: url(../image/gastro.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#fotoBloqueDosQua {
+  width: 25vw;
+  height: 50vh;
+  background-image: url(../image/conciertos.jpg);
+  background-size: cover;
+  margin-top: 265px;
+  margin-left: 50px;
+}
+#fotoBloqueTresQua {
+  width: 25vw;
+  height: 50vh;
+  background-image: url(../image/motoGp.jpg);
+  background-size: cover;
+  margin-top: 265px;
+  margin-left: 50px;
 }
 #quinario {
   width: 100%;
   height: 500px;
-  background-color: rgb(50, 50, 54);
+  background-color: rgb(50, 50, 60);
 }
