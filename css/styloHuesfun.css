@@ -27,7 +27,7 @@
   justify-content: space-around;
   margin-top: 50px;
   margin-right: 0px;
-  margin-left: 35%;
+  margin-left: 25%;
 }
 #menu li {
   text-decoration: none;
@@ -41,7 +41,7 @@
   list-style-type: none;
 }
 #menu li a:hover {
-  color:  #E5E8E8;
+  color:  #e00da1;
 }
 #principal {
   display: flex;
@@ -52,6 +52,7 @@
 #fotoPrincipal {
   width: 74vw;
   height: 82vh;
+  margin: 0;
 }
 #textoInsp {
   width: 26vw;
@@ -83,68 +84,69 @@
   text-align: center;
 }
 #secundario {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
+  display: grid;
+  grid-template-areas: "none tituloSecundario tituloSecundario tituloSecundario"
+  "none bloqueUnoSec bloqueDosSec bloqueTresSec";
+  grid-template-columns: 35% 21% 21% 21%;
+  grid-template-rows: 20vh 80vh;
   background-image: url(../image/fondoUno.jpg);
   background-size: cover;
   margin: 0;
   border-top: 2px solid #5e5c5c;
 }
 #bloqueUnoSec {
-  width: 25%;
-  height: 100vh;
-  margin-left: 100px;
+  grid-area: bloqueUnoSec ;
+  margin: 0;
 }
 #bloqueDosSec {
-  width: 33%;
-  height: 100vh;
+  grid-area: bloqueDosSec;
   margin: 0;
+}
+#bloqueTresSec {
+  grid-area: bloqueTresSec;
+  margin: 0;
+}
+#tituloSecundario {
+  grid-area: tituloSecundario;
 }
 .textoIntro {
   width:80%;
-  color: #424949;
+  color: #e00da1;
   font-size: 18px;
-  margin-top: 50px;
-  margin-left: 50px;
 }
 .subTitulos {
-  width: 25vw;
+  width: 17vw;
   height: 5vh;
-  margin-left: 50px;
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .textoFuerte {
   width: 1000px;
-  color: rgb(50, 50, 54);
+  color: #e00da1;
   font-family: "Bebas Neue", cursive;
   font-size: 80px;
-  margin-left: 50px;
+  margin-top: 30px;
 }
 #fotoBloqueUnoSec {
-  width: 20vw;
-  height: 40vh;
+  width: 18vw;
+  height: 30vh;
   background-image: url(../image/Castillo.jpg);
   background-size: cover;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-top: 68px;
 }
 #fotoBloqueDosSec {
-  width: 20vw;
-  height: 40vh;
+  width: 18vw;
+  height: 30vh;
   background-image: url(../image/ordesa.jpg);
   background-size: cover;
-  margin-top: 265px;
-  margin-left: 50px;
+  margin-top: 95px;
 }
 #fotoBloqueTresSec {
-  width: 20vw;
-  height: 40vh;
+  width: 18vw;
+  height: 30vh;
   background-image: url(../image/PASARELA.jpg);
   background-size: cover;
-  margin-top: 265px;
-  margin-left: 50px;
+  margin-top: 95px;
 }
 #terciario {
   width: 100vw;
@@ -152,10 +154,70 @@
   background-color: #424949;
 }
 #cuaternario {
-  width: 100vw;
-  height: 600px;
-  background-color: #ffffff;
+  display: grid;
+  grid-template-areas: "none tituloCuaternario tituloCuaternario tituloCuaternario"
+  "none bloqueUnoCua bloqueDosCua bloqueTresCua";
+  grid-template-columns: 10% 21% 21% 21%;
+  grid-template-rows: 20vh 80vh;
+  background-image: url(../image/fondoDos.jpg);
   background-size: cover;
+  margin: 0;
+  border-top: 2px solid #5e5c5c;
+}
+#bloqueUnoCua {
+  grid-area: bloqueUnoCua ;
+  margin: 0;
+}
+#bloqueDosCua {
+  grid-area: bloqueDosCua;
+  margin: 0;
+}
+#bloqueTresCua {
+  grid-area: bloqueTresCua;
+  margin: 0;
+}
+#tituloCuaternario {
+  grid-area: tituloCuaternario;
+  
+}
+.textoIntro {
+  width:80%;
+  color: #e00da1;
+  font-size: 18px;
+}
+.subTitulos {
+  width: 17vw;
+  height: 5vh;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.textoFuerte {
+  width: 1000px;
+  color: #e00da1;
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  margin-top: 30px;
+}
+#fotoBloqueUnoCua {
+  width: 18vw;
+  height: 30vh;
+  background-image: url(../image/gastro.jpg);
+  background-size: cover;
+  margin-top: 68px;
+}
+#fotoBloqueDosCua {
+  width: 18vw;
+  height: 30vh;
+  background-image: url(../image/formula.jpg);
+  background-size: cover;
+  margin-top: 95px;
+}
+#fotoBloqueTresCua {
+  width: 18vw;
+  height: 30vh;
+  background-image: url(../image/clasica.jpg);
+  background-size: cover;
+  margin-top: 95px;
 }
 #fotoBloqueUnoQua {
   width: 25vw;
@@ -163,7 +225,7 @@
   background-image: url(../image/gastro.jpg);
   background-size: cover;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 #fotoBloqueDosQua {
   width: 25vw;
@@ -171,7 +233,7 @@
   background-image: url(../image/conciertos.jpg);
   background-size: cover;
   margin-top: 265px;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 #fotoBloqueTresQua {
   width: 25vw;
@@ -181,8 +243,8 @@
   margin-top: 265px;
   margin-left: 50px;
 }
-#quinario {
-  width: 100%;
-  height: 500px;
-  background-color: rgb(50, 50, 60);
+footer {
+    width: 100vw;
+    height: 70vh;
+    background-color: #424949;
 }
