@@ -1,8 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Bebas Neue", cursive;
-  font-family: "Krona One", sans-serif;
 }
 #cabecera {
   width: 100vw;
@@ -13,21 +11,32 @@
   border-bottom: 2px  solid #fff;
 }
 #logoGlauka {
-  width: 119px;
+  width: 262px;
   height: 135px;
   background-image: url(../image/nuevoLogo\ Glauka.png);
   background-size: cover;
   margin-top: 10px;
   margin-left: 5%;
 }
+#slogan{
+  width: 30%;
+  height: 4vh;
+  margin-left: 2%;
+  margin-top: 40px;
+}
+#slogan p{
+  font-size: 45px;
+  color: #e00da1;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
 #menu {
   display: flex;
-  width: 50%;
+  width: 150%;
   height: 40px;
-  justify-content: space-around;
-  margin-top: 50px;
+  justify-content:space-evenly;
+  margin-top: 40px;
   margin-right: 0px;
-  margin-left: 25%;
+  margin-left: 5%;
 }
 #menu li {
   text-decoration: none;
@@ -36,12 +45,47 @@
 #menu li a {
   font-family: "Bebas Neue", cursive;
   color: #424949;
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: none;
   list-style-type: none;
 }
 #menu li a:hover {
   color:  #e00da1;
+}
+#lateralFoto{
+  font-family: "Arial", cursive;
+  font-size: 22px;
+  color: #fff;
+  text-align: left;
+}
+#lateralFoto p{
+  width: 80%;
+  height: 40%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#elementoJs{
+  width: 70%;
+  height: 200px;
+  background-color: #424949;
+  margin-top: 10px;
+  margin-left: 50px;
+  justify-items: center;
+}
+#myElement{
+  font-size: 30px;
+  color: #06f5f5;
+  font-family: 'Sedgwick Ave Display', cursive;
+ margin-top: 50px;
+ margin-left: 50px;
+}
+#firmaLogoGlauka {
+  width: 128px;
+  height: 145px;
+  background-image: url(../image/nuevoLogo\ Glauka.png);
+  background-size: cover;
+  margin-top: 10px;
+  margin-left: 180px;
 }
 #principal {
   display: flex;
@@ -110,13 +154,16 @@
   grid-area: tituloSecundario;
 }
 .textoIntro {
-  width:80%;
+  width:25vw;
+  font-family: "Krona One", sans-serif;
   color: #e00da1;
   font-size: 18px;
+  margin: 0;
 }
 .subTitulos {
   width: 17vw;
   height: 5vh;
+  font-family: "Krona One", sans-serif;
   font-size: 16px;
   margin-top: 20px;
 }
@@ -152,6 +199,17 @@
   width: 100vw;
   height: 100vh;
   background-color: #424949;
+  margin: 0;
+}
+#textoTerciario {
+  width: 80%;
+  height: 60%;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  font-size: 60px;
+  float: left;
+  margin-top: 200px;
+  margin-left: 200px;
 }
 #cuaternario {
   display: grid;
@@ -178,25 +236,6 @@
 }
 #tituloCuaternario {
   grid-area: tituloCuaternario;
-  
-}
-.textoIntro {
-  width:80%;
-  color: #e00da1;
-  font-size: 18px;
-}
-.subTitulos {
-  width: 17vw;
-  height: 5vh;
-  font-size: 16px;
-  margin-top: 20px;
-}
-.textoFuerte {
-  width: 1000px;
-  color: #e00da1;
-  font-family: "Bebas Neue", cursive;
-  font-size: 80px;
-  margin-top: 30px;
 }
 #fotoBloqueUnoCua {
   width: 18vw;
@@ -227,24 +266,105 @@
   margin-top: 50px;
   margin-left: 70px;
 }
-#fotoBloqueDosQua {
-  width: 25vw;
-  height: 50vh;
-  background-image: url(../image/conciertos.jpg);
-  background-size: cover;
-  margin-top: 265px;
-  margin-left: 70px;
+#escapadas {
+  display: flex;
+  background-color: #424949;
+  width: 100vw;
+  height: 82vh;
 }
-#fotoBloqueTresQua {
-  width: 25vw;
-  height: 50vh;
-  background-image: url(../image/motoGp.jpg);
+#slideEscapadas {
+  width: 65vw;
+  height: 82vh;
+  margin: 0;
+}
+#destacadoEscapadas{
+  width: 33vw;
+  height: 82vh;
+  background-image: url(../image/BenidormA4.jpg);
   background-size: cover;
-  margin-top: 265px;
-  margin-left: 50px;
+  align-items: center;
+}
+#principalEscapadas {
+  display: grid;
+  grid-template-areas: "none tituloSecundario tituloSecundario tituloSecundario"
+  "none bloqueEscapadaUno bloqueEscapadaDos bloqueEscapadaTres";
+  grid-template-columns: 35% 21% 21% 21%;
+  grid-template-rows: 20vh 80vh;
+  background-image: url(../image/fondoUno.jpg);
+  background-size: cover;
+  margin: 0;
+  border-top: 2px solid #5e5c5c;
+}
+#bloqueEscapadaUno {
+  grid-area: bloqueEscapadaUno ;
+  margin: 0;
+}
+#bloqueEscapadaDos{
+  grid-area: bloqueEscapadaDos;
+  margin: 0;
+}
+#bloqueEscapadaTres{
+  grid-area: bloqueEscapadaTres;
+  margin: 0;
+}
+#fotoEscapadaUno{
+  width: 18vw;
+  height: 30vh;
+  background-image: url(../image/Castillo.jpg);
+  background-size: cover;
+  margin-top: 68px;
+}
+#fotoEscapadaDos{
+  width: 18vw;
+  height: 30vh;
+  background-image: url(../image/ordesa.jpg);
+  background-size: cover;
+  margin-top: 95px;
+}
+#fotoEscapadaTres {
+  width: 18vw;
+  height: 30vh;
+  background-image: url(../image/PASARELA.jpg);
+  background-size: cover;
+  margin-top: 95px;
+}
+#inscripcion {
+  width: 100vw;
+  height: 30vh;
+  background-color: #e00da1;
 }
 footer {
+  display: flex;
     width: 100vw;
     height: 70vh;
     background-color: #424949;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Arial", cursive;
+}
+#zonaUno {
+  width: 33%;
+  height: 60vh;
+  margin-top: 40px;
+  border-right: 1px solid #ffffff;
+}
+#pieLogoGlauka {
+  width: 128px;
+  height: 145px;
+  background-image: url(../image/nuevoLogo\ Glauka.png);
+  background-size: cover;
+  margin-top: 30px;
+  margin-left: 40%;
+}
+#zonaDos{
+  width: 33%;
+  height: 60vh;
+  margin-top: 40px;
+  border-right: 2px solid #ffffff;
+}
+#zonaTres{
+  width: 33%;
+  height: 60vh;
+  margin-top: 40px;
+  border-right: 2px solid #ffffff;
 }
