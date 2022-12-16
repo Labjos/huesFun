@@ -173,7 +173,7 @@
   margin-top: 20px;
 }
 .textoFuerte {
-  width: 1000px;
+  width: 100%;
   color: #e00da1;
   font-family: "Bebas Neue", cursive;
   font-size: 80px;
@@ -227,7 +227,7 @@
   background-image: url(../image/fondoDos.jpg);
   background-size: cover;
   margin: 0;
-  border-bottom: 5px  solid rgb(199, 205, 212);
+  border-bottom: 5px  solid #e00da1;
 }
 #bloqueUnoCua {
   grid-area: bloqueUnoCua ;
@@ -306,7 +306,6 @@
 #bloqueEscapadaUno {
   grid-area: bloqueEscapadaUno;
   margin: 0;
-  
 }
 #bloqueEscapadaDos{
   grid-area: bloqueEscapadaDos;
@@ -342,17 +341,17 @@
   height: 30vh;
   background-color: #e00da1;
 }
-#detalleEscapadas {
+#detalleEscapadasUno {
     display: grid;
     grid-template-areas: "none tituloEscapadas tituloEscapadas tituloEscapadas"
     "none subEscapadas subEscapadas subEscapadas"
-    "none escapadaUno escapadaDos escapadaTres";
+    "none escapadaUnoUno escapadaDosUno escapadaTresUno";
     grid-template-columns: 10% 21% 21% 21%;
     grid-template-rows: 15vh 10vh 75vh;
     background-image: url(../image/fondoDos.jpg);
     background-size: cover;
     margin: 0;
-    border-bottom: 5px  solid rgb(199, 205, 212);
+    border-bottom: 5px  solid #e00da1;
 }
 #tituloEscapadas {
   grid-area: tituloEscapadas;
@@ -363,14 +362,14 @@
   margin: 0;
   margin-top: 20px;
 }
-#escapadaUno {
-  grid-area: escapadaUno;
+#escapadaUnoUno {
+  grid-area: escapadaUnoUno;
   margin: 0;
 }
 .tituloExcursion {
   margin-top: 10px;
 }
-#escapadaUnoFoto {
+#escapadaUnoUnoFoto {
   width: 20vw;
   height: 30vh;
   background-image: url(../image/castillo.jpg);
@@ -380,28 +379,120 @@
 .iconos{
   margin-top: 10px;
 }
-#escapadaDos {
-  grid-area: escapadaDos;
+#escapadaDosUno {
+  grid-area: escapadaDosUno;
   margin: 0;
 }
-#escapadaDosFoto {
+#escapadaDosUnoFoto {
 width: 20vw;
 height: 30vh;
 background-image: url(../image/PASARELA.jpg);
 background-size: cover;
 margin-top: 25px;
 }
-#escapadaTres {
-  grid-area: escapadaTres;
+#escapadaTresUno {
+  grid-area: escapadaTresUno;
   margin: 0;
 }
-#escapadaTresFoto {
+#escapadaTresUnoFoto {
   width: 20vw;
   height: 30vh;
   background-image: url(../image/Botero700.jpg);
   background-size: cover;
   margin-top: 25px;
   }
+  #detalleEscapadasDos {
+    display: grid;
+    grid-template-areas: "none tituloEscapadas tituloEscapadas tituloEscapadas"
+    "none subEscapadas subEscapadas subEscapadas"
+    "none escapadaUnoDos escapadaDosDos escapadaTresDos";
+    grid-template-columns: 35% 21% 21% 21%;
+    grid-template-rows: 15vh 10vh 75vh;
+    background-image: url(../image/fondoDos.jpg);
+    background-size: cover;
+    margin: 0;
+    border-bottom: 5px  solid #e00da1;
+}
+#escapadaUnoDosFoto {
+  width: 20vw;
+  height: 30vh;
+  background-image: url(../image/castillo.jpg);
+  background-size: cover;
+  margin-top: 25px;
+}
+#escapadaUnoDos {
+  grid-area: escapadaUnoDos;
+  margin: 0;
+}
+#escapadaDosDosFoto {
+width: 20vw;
+height: 30vh;
+background-image: url(../image/PASARELA.jpg);
+background-size: cover;
+margin-top: 25px;
+}
+#escapadaDosDos {
+  grid-area: escapadaDosDos;
+  margin: 0;
+}
+#escapadaTresDosFoto {
+  width: 20vw;
+  height: 30vh;
+  background-image: url(../image/Botero700.jpg);
+  background-size: cover;
+  margin-top: 25px;
+  }
+#escapadaTresDos {
+    grid-area: escapadaTresDos;
+    margin: 0;
+}
+#detalleEscapadasTres {
+  display: grid;
+  grid-template-areas: "none tituloEscapadas tituloEscapadas tituloEscapadas"
+  "none subEscapadas subEscapadas subEscapadas"
+  "none escapadaUnoTres escapadaDosTres escapadaTresTres";
+  grid-template-columns: 10% 21% 21% 21%;
+  grid-template-rows: 15vh 10vh 75vh;
+  background-image: url(../image/fondoUno.jpg);
+  background-size: cover;
+  margin: 0;
+  border-bottom: 5px  solid #e00da1;
+}
+#escapadaUnoTres {
+  grid-area: escapadaUnoTres;
+  margin: 0;
+}
+#escapadaUnoTresFoto {
+  width: 20vw;
+  height: 30vh;
+  background-image: url(../image/castillo.jpg);
+  background-size: cover;
+  margin-top: 25px;
+}
+#escapadaDosTres {
+  grid-area: escapadaDosTres;
+  margin: 0;
+}
+#escapadaDosTresFoto {
+width: 20vw;
+height: 30vh;
+background-image: url(../image/arco.jpg);
+background-size: cover;
+margin-top: 25px;
+}
+#escapadaTresTres {
+  grid-area: escapadaTresTres;
+  margin: 0;
+}
+#escapadaTresTresFoto {
+  width: 20vw;
+  height: 30vh;
+  background-image: url(../image/calles.jpg);
+  background-size: cover;
+  margin-top: 25px;
+}
+
+
 #principalGlauka{
 
 }
